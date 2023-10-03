@@ -24,12 +24,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-		<Content Include="../../icon.png">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
-		<Content Include="../../README.md">
-			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
-		</Content>
+		<None Include="..\..\README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+		<None Include="..\..\icon.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
 	</ItemGroup>
 
 </Project>
